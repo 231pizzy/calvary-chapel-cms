@@ -1,0 +1,29 @@
+.ql-container.ql-snow {
+    height: 200px;
+    position: relative;
+}
+
+
+.ql-editor {
+    height: 150px;
+    border-top: 1px solid black;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.ag-body {
+    .ag-row {
+        .ag-cell {
+
+            input[type=checkbox]:checked:after,
+            input[type=radio]:checked:after {
+                display: none;
+            }
+
+            input[type=checkbox]:after,
+            input[type=radio]:after {
+                display: none;
+            }
+        }
+    }
+}
